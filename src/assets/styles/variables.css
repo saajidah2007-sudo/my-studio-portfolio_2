@@ -1,0 +1,42 @@
+:root {
+  color-scheme: light;
+  font-family: 'Inter', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+
+  --color-ivory: #f7f0e9;
+  --color-espresso: #332a28;
+  --color-terracotta: #803f35;
+  --color-rose: #d8a69b;
+  --color-white: #ffffff;
+  --color-muted: #726865;
+  --color-line: rgba(51, 42, 40, 0.15);
+
+  --font-body: 'Inter', sans-serif;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: clamp(1.4rem, 2vw, 1.8rem);
+  --text-display: clamp(3.25rem, 8.1vw, 7.5rem);
+  --text-heading: clamp(2.3rem, 5.3vw, 4.8rem);
+
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+  --space-6: 4rem;
+  --space-7: 6rem;
+  --space-8: 8rem;
+  --content-width: 1160px;
+  --nav-height: 76px;
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+  --shadow-soft: 0 18px 55px rgba(51, 42, 40, 0.09);
+  --shadow-frame: 0 24px 70px rgba(51, 42, 40, 0.16);
+  --transition: 180ms ease;
+}

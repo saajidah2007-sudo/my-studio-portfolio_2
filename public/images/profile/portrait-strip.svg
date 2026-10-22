@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 1040" role="img" aria-label="Illustrated photo booth portrait strip">
+  <defs>
+    <linearGradient id="paper" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#e8e4df"/>
+      <stop offset="1" stop-color="#bdb8b2"/>
+    </linearGradient>
+    <linearGradient id="shade" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#242322"/>
+      <stop offset="1" stop-color="#77716c"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency=".72" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0.5 0 0 0 0 0.5 0 0 0 0 0.5 0 0 0 .11 0"/>
+    </filter>
+    <g id="portrait">
+      <rect width="328" height="250" fill="url(#paper)"/>
+      <path d="M0 190 Q80 142 162 174 Q255 136 328 188 V250 H0Z" fill="#d2cdc7"/>
+      <ellipse cx="166" cy="128" rx="70" ry="86" fill="#272625"/>
+      <path d="M97 127 Q91 53 159 42 Q233 41 238 120 Q225 75 193 67 Q165 95 113 93Z" fill="#171716"/>
+      <path d="M134 131 Q145 123 157 131 M178 131 Q190 123 202 131" fill="none" stroke="#d6d1cb" stroke-width="5" stroke-linecap="round"/>
+      <path d="M155 161 Q169 170 183 161" fill="none" stroke="#d6d1cb" stroke-width="4" stroke-linecap="round"/>
+      <path d="M81 250 Q91 181 147 178 L166 201 L185 178 Q244 182 254 250Z" fill="url(#shade)"/>
+      <rect width="328" height="250" filter="url(#grain)" opacity=".65"/>
+    </g>
+  </defs>
+  <rect width="420" height="1040" fill="#fff"/>
+  <g transform="translate(46 40)"><use href="#portrait"/></g>
+  <g transform="translate(46 303)"><use href="#portrait"/><g transform="translate(328 0) scale(-1 1)"><use href="#portrait"/></g></g>
+  <g transform="translate(46 566)"><use href="#portrait"/><g transform="translate(0 0)"><rect width="328" height="250" fill="#000" opacity=".12"/></g></g>
+  <g fill="#332a28">
+    <circle cx="22" cy="22" r="4"/><circle cx="398" cy="22" r="4"/>
+    <circle cx="22" cy="281" r="4"/><circle cx="398" cy="281" r="4"/>
+    <circle cx="22" cy="544" r="4"/><circle cx="398" cy="544" r="4"/>
+    <circle cx="22" cy="807" r="4"/><circle cx="398" cy="807" r="4"/>
+  </g>
+  <text x="210" y="884" text-anchor="middle" fill="#332a28" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="3">SA · CONTACT SHEET</text>
+  <text x="210" y="920" text-anchor="middle" fill="#726865" font-family="Inter, Arial, sans-serif" font-size="10" letter-spacing="2">A PLACEHOLDER ILLUSTRATION · REPLACE WITH YOUR PHOTO</text>
+  <path d="M46 949H374" stroke="#d8a69b" stroke-width="2"/>
+</svg>
